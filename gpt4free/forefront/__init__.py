@@ -7,6 +7,7 @@ from time import time, sleep
 from uuid import uuid4
 from fake_useragent import UserAgent
 from requests import post
+from pymailtm import MailTm, Message
 from tls_client import Session
 from .typing import ForeFrontResponse
 
